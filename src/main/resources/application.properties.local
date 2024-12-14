@@ -1,0 +1,6 @@
+server.port=8080
+spring.datasource.driver-class-name=com.microsoft.sqlserver.jdbc.SQLServerDriver
+spring.datasource.url=jdbc:sqlserver://localhost:1433;databaseName=book;encrypt=false
+spring.datasource.username=<資料庫 帳號>
+spring.datasource.password=<資料庫 密碼>
+mybatis.mapper-locations=classpath:mappers/*.xml

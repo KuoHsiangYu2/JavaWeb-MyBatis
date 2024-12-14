@@ -1,0 +1,1 @@
+mvnw.cmd clean && mvnw.cmd install && mvnw.cmd spring-boot:run
